@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AssistDoctor</string>
+    <string name="enjoy">enjoy</string>
+    <string name="token">Token</string>
+    <string name="password">Password</string>
+    <string name="don_t_have_a_token">Don\'t have a token?</string>
+    <string name="request_one">Request one.</string>
+    <string name="type_msg">Type a message</string>
+</resources>
