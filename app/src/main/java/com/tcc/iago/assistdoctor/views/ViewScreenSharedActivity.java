@@ -2,6 +2,7 @@ package com.tcc.iago.assistdoctor.views;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Toast;
@@ -20,7 +21,7 @@ public class ViewScreenSharedActivity extends Activity {
     @BindView(R.id.vss_webview)
     protected WebView mWebView;
 
-    private static final String URL = "https://www.youtube.com/watch?v=3yZcm76XHwY";
+    private static final String URL = "https://assist-doctor.herokuapp.com/demos/screen-sharing.html#28aoyq6kesx";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,7 +40,7 @@ public class ViewScreenSharedActivity extends Activity {
          mWebView.loadUrl(URL);
 
 
-        mWebView.setWebViewClient(new WebViewClient() {
+        mWebView.setWebChromeClient(new WebChromeClient() {
             public void onReceivedError(WebView view, int errorCode, String description, String failingUrl) {
                 Toast.makeText(ViewScreenSharedActivity.this, "ErrorCode = " + errorCode, Toast.LENGTH_SHORT).show();
 
