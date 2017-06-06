@@ -107,6 +107,7 @@ public class ViewScreenSharedActivity extends Activity {
         mWebView.getSettings().setUseWideViewPort(true);
 
         mWebView.loadUrl(URL + hash);
+        mTvWebviewStatus.setText(hash);
 
     }
 

@@ -9,4 +9,5 @@
     <string name="dialog_title">Doctor Assistance</string>
     <string name="dialog_footer">Request the access token with the doctor who is sharing exam.</string>
     <string name="invalid_token">The token is invalid.</string>
+    <string name="ok">OK</string>
 </resources>

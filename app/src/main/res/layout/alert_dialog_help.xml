@@ -44,7 +44,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:textStyle="bold"
-        android:textColor="@color/light_gray"
+        android:textColor="@color/blue_alpha"
         android:background="@drawable/shape_button_enjoy"
-        android:text="OK" />
+        android:text="@string/ok" />
 </LinearLayout>
